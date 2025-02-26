@@ -1,5 +1,5 @@
 {
-    "name": "htmlmin/htmlmin",
+    "name": "juliocbl/laravel-htmlmin",
     "description": "HTMLMin Is A Simple HTML Minifier For Laravel 5",
     "keywords": ["laravel", "framework", "html minifier", "html", "minifier", "HTMLMin", "Laravel HTMLMin", "Laravel-HTMLMin"],
     "license": "MIT",
