@@ -15,7 +15,7 @@ use Illuminate\Http\Client\Factory;
  * @method static void assertNothingSent()
  * @method static void assertSentCount(int $count)
  * @method static void assertSequencesAreEmpty()
- * @method static \Illuminate\Support\Collection recorded(callable $callback = null)
+ * @method static \Illuminate\Support\Collection recorded(?callable $callback = null)
  * @method static \Illuminate\Contracts\Events\Dispatcher|null getDispatcher()
  * @method static void macro(string $name, object|callable $macro)
  * @method static void mixin(object $mixin, bool $replace = true)

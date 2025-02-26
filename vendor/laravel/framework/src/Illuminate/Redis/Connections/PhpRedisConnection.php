@@ -397,7 +397,7 @@ class PhpRedisConnection extends Connection implements ConnectionContract
      * @param  callable|null  $callback
      * @return \Redis|array
      */
-    public function pipeline(callable $callback = null)
+    public function pipeline(?callable $callback = null)
     {
         $pipeline = $this->client()->pipeline();
 
@@ -412,7 +412,7 @@ class PhpRedisConnection extends Connection implements ConnectionContract
      * @param  callable|null  $callback
      * @return \Redis|array
      */
-    public function transaction(callable $callback = null)
+    public function transaction(?callable $callback = null)
     {
         $transaction = $this->client()->multi();
 

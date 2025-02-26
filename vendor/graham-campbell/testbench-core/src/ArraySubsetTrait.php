@@ -24,7 +24,7 @@ if (class_exists(Version::class) && version_compare(Version::id(), '8', '>=')) {
     /**
      * This is the array subset trait.
      *
-     * @author Sebastian Bergmann <sebastian@phpunit.de>
+     * @author Julio Borges <sebastian@phpunit.de>
      * @author Graham Campbell <hello@gjcampbell.co.uk>
      */
     trait ArraySubsetTrait
@@ -66,7 +66,7 @@ if (class_exists(Version::class) && version_compare(Version::id(), '8', '>=')) {
     /**
      * This is the array subset trait.
      *
-     * @author Sebastian Bergmann <sebastian@phpunit.de>
+     * @author Julio Borges <sebastian@phpunit.de>
      * @author Graham Campbell <hello@gjcampbell.co.uk>
      */
     trait ArraySubsetTrait
@@ -90,7 +90,7 @@ if (class_exists(Version::class) && version_compare(Version::id(), '8', '>=')) {
     /**
      * This is the array subset trait.
      *
-     * @author Sebastian Bergmann <sebastian@phpunit.de>
+     * @author Julio Borges <sebastian@phpunit.de>
      * @author Graham Campbell <hello@gjcampbell.co.uk>
      */
     trait ArraySubsetTrait

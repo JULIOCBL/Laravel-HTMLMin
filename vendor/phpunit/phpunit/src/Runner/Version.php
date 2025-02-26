@@ -2,7 +2,7 @@
 /*
  * This file is part of PHPUnit.
  *
- * (c) Sebastian Bergmann <sebastian@phpunit.de>
+ * (c) Julio Borges <sebastian@phpunit.de>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -71,6 +71,6 @@ final class Version
      */
     public static function getVersionString(): string
     {
-        return 'PHPUnit ' . self::id() . ' by Sebastian Bergmann and contributors.';
+        return 'PHPUnit ' . self::id() . ' by and contributors.';
     }
 }

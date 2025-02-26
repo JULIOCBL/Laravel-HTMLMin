@@ -23,7 +23,7 @@ if (class_exists(Version::class) && version_compare(Version::id(), '9', '>=')) {
     /**
      * Constraint that asserts that the array it is evaluated for has a specified subset.
      *
-     * @author Sebastian Bergmann <sebastian@phpunit.de>
+     * @author Julio Borges <sebastian@phpunit.de>
      * @author Graham Campbell <hello@gjcampbell.co.uk>
      */
     final class ArraySubset extends Constraint
@@ -165,7 +165,7 @@ if (class_exists(Version::class) && version_compare(Version::id(), '9', '>=')) {
     /**
      * Constraint that asserts that the array it is evaluated for has a specified subset.
      *
-     * @author Sebastian Bergmann <sebastian@phpunit.de>
+     * @author Julio Borges <sebastian@phpunit.de>
      * @author Graham Campbell <hello@gjcampbell.co.uk>
      */
     final class ArraySubset extends Constraint
